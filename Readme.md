@@ -4,10 +4,6 @@
 
 OCR-DNN is a deep learning-based Optical Character Recognition (OCR) system designed to recognize alphanumeric characters from both RGB and binary image inputs. The model leverages a deep neural network (DNN) architecture with convolutional layers to extract features from images and classify them into 62 possible outputs (letters and digits).
 
-## Project Repository
-
-You can view the project on GitHub [here](https://github.com/ViratSrivastava/OCR-GAN).
-
 ## Features
 
 - **Dual Input Architecture**: The model accepts both RGB and binary image inputs, processing each through separate convolutional layers.
@@ -120,10 +116,8 @@ To train the OCR-DNN model, run the following command:
 python train.py
 ```
 
-To test the OCR system on a new image:
-
 ```bash
-python test.py --rgb_image path_to_rgb_image --binary_image path_to_binary_image
+python main.py.py
 ```
 
 ## Results
@@ -131,5 +125,8 @@ python test.py --rgb_image path_to_rgb_image --binary_image path_to_binary_image
 Include some example images showing the OCR system's performance with both RGB and binary inputs.
 
 ## Dataset
+Data set is uploaded here: 
 
+Download the zip file and move the extratced folder to the lcoal repositry clone 
 The dataset used for training contains character images in both RGB and binary formats. It includes uppercase and lowercase letters, along with digits (0-9). You can replace the dataset with custom data for specific OCR tasks.
+https://www.kaggle.com/datasets/viratsrivastava/ocr-dnn-ensemble-dataset/data
