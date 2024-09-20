@@ -85,7 +85,13 @@ The OCR model is built with the following architecture:
 Model structure has a variable performace of 70-88% with respect to the type of data it is trained on.
 Training data belong to the following categories:
 
-1. 
+1. Handwitten Characters: Upper case and Lower case with numbers with both RGB and Binary Images of the characters
+2. Digital Character: Upper case and Lower case with numbers with Binary Images of the characters
+3. Multi Font Digital Character: Upper case and Lower case with numbers with Binary Images of the characters in multiple fonts
+4. Handwitten Text: Upper case and Lower case with numbers with both RGB and Binary Images of the Text
+5. Digital Text: Upper case and Lower case with numbers with Binary Images of the Text 
+
+   
 ![ocr_training_history](https://github.com/user-attachments/assets/cb4da6e2-7d51-4d6c-906f-47019b4a74eb)
 
 Training data contains various datasets of all type such as text with varable font and letter case as well as human hand writting for OCR.
@@ -113,7 +119,7 @@ A deployable approch is use of ensemble models traiend on all these datsets work
 To train the OCR-DNN model, run the following command:
 
 ```bash
-python train.py
+python train.py #### to be created
 ```
 
 ```bash
