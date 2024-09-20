@@ -18,6 +18,10 @@ You can view the project on GitHub [here](https://github.com/ViratSrivastava/OCR
 ## Model Architecture
 
 The OCR model is built with the following architecture:
+
+![ocr_model h5_architecture](https://github.com/user-attachments/assets/c180d48b-dbc5-4a2e-93e6-420e4bbeb0b2)<svg></svg>
+
+
 <pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace">┏━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
 ┃<span style="font-weight: bold"> Layer (type)        </span>┃<span style="font-weight: bold"> Output Shape      </span>┃<span style="font-weight: bold">    Param # </span>┃<span style="font-weight: bold"> Connected to      </span>┃
 ┡━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
