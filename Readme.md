@@ -83,8 +83,12 @@ The OCR model is built with the following architecture:
 ## Performance
 
 Model structure has a variable performace of 70-88% with respect to the type of data it is trained on.
+Training data belong to the following categories:
 
-Training data contains various datsets of all type such as text with varable font and letter case as well as huamn hand writting for OCR.
+1. 
+![ocr_training_history](https://github.com/user-attachments/assets/cb4da6e2-7d51-4d6c-906f-47019b4a74eb)
+
+Training data contains various datasets of all type such as text with varable font and letter case as well as human hand writting for OCR.
 
 A deployable approch is use of ensemble models traiend on all these datsets working in conjcuture in a sequenced structure.
 
